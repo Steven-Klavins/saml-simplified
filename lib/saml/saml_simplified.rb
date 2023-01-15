@@ -1,4 +1,4 @@
-require "saml/simplified/version"
+require "saml/saml_simplified/version"
 
 module Saml
   module Simplified
