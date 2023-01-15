@@ -6,12 +6,13 @@ require "saml/simplified/version"
 Gem::Specification.new do |spec|
   spec.name          = "saml-simplified"
   spec.version       = Saml::Simplified::VERSION
-  spec.authors       = ["Steven-Klavins"]
+  spec.authors       = ["Steven Klavins"]
   spec.email         = ["stevenklavins94@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "A gem for quick and easy SAML SSO in Rails."
+  spec.description   = "A simple library for SAML SSO authentication. By removing unnecessary 
+                        complexity and clutter, this library aims to be minimalistic and easy to use"
+  spec.homepage      = "https://github.com/Steven-Klavins/saml-simplified"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
